@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:pepstore/app.dart';
-import 'package:pepstore/utils/constants/colors.dart';
 
 void main() {
 
