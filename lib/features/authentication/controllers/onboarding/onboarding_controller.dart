@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:pepstore/features/authentication/screens/login/login.dart';
 
 class OnboardingController extends GetxController {
   static OnboardingController get instance => Get.find();
@@ -20,7 +21,7 @@ class OnboardingController extends GetxController {
   // Update current index & jump to next page
   void nextPage() {
     if (currentPageIndex.value == 2) {
-      // Get.to(LogInScreen());
+      Get.offAll(const LoginScreen());  // Menghapus  semua screen dan piindah ke login
     } else {
       int page = currentPageIndex.value + 1;
       pageController.jumpToPage(page);

@@ -31,7 +31,7 @@ class MyTexts {
   static const String createAccount = "Create Account";
   static const String orSignInWith = "Or Sign In With";
   static const String orSignUpWith = "Or Sign Up With";
-  static const String iAgreeTo = "I Agree To";
+  static const String isAgreeTo = "I Agree To";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms Of Use";
   static const String verificationCode = "Verification Code";
@@ -40,15 +40,25 @@ class MyTexts {
 
   // Authentication Heading Text
   static const loginTitle = "Welcome Back,";
-  static const loginSubTitle = "Discover limitless Choices and Unmatched Convenience";
+  static const loginSubTitle =
+      "Discover limitless Choices and Unmatched Convenience";
   static const signupTitle = "Let's create your account";
   static const forgetPasswordTitle = "Forget password";
-  static const forgetPasswordSubTitle = "Don't worry sometimes people can forget too, enter your email and we will send you a pasword reset link";
+  static const forgetPasswordSubTitle =
+      "Don't worry sometimes people can forget too, enter your email and we will send you a pasword reset link";
   static const changeYourPasswordTitle = "Password Reset Email Sent";
-  static const changeYourPasswordSubTitle = "Your Account Security is Our Priority! We've sent you a secure link to safely change your password and keep your account protected";
+  static const changeYourPasswordSubTitle =
+      "Your Account Security is Our Priority! We've sent you a secure link to safely change your password and keep your account protected";
   static const confirmEmailTitle = "Verify Your Email Address!";
-  static const confirmEmailSubTitle = "Congratulations! your account Awaits: Verify your email to start shopping and experience a world of unrivaled Deals and Personalized offers";
-  static const emailNotReceivedMessage = "Didn't get the email? Check your junk/spam or resend it.";
+  static const confirmEmailSubTitle =
+      "Congratulations! your account Awaits: Verify your email to start shopping and experience a world of unrivaled Deals and Personalized offers";
+  static const emailNotReceivedMessage =
+      "Didn't get the email? Check your junk/spam or resend it.";
   static const yourAccountCreatedTitle = "Your Account Succesfully Created!";
-  static const yourAccountCreatedSubTitle = "Welcome to your ultimate shopping destination: Your account u=is created, unleash the joy of seamless online shopping!";
+  static const yourAccountCreatedSubTitle =
+      "Welcome to your ultimate shopping destination: Your account u=is created, unleash the joy of seamless online shopping!";
+
+  // as
+  static const and = "and";
+  static const myContinue = "Continue" ;
 }

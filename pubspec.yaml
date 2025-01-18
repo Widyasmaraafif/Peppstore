@@ -48,6 +48,7 @@ flutter:
     - assets/logos/
     - assets/icons/
     - assets/images/on_boarding_images/
+    - assets/images/verify_images/
 
 # Local Fonts
   fonts:
@@ -69,28 +70,17 @@ flutter:
         - asset: assets/fonts/Poppins-Bold.ttf
           weight: 800
 
-  
-  
+# Flutter Native Splash Configuration
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/logoDark.png
+  image_dark: assets/logos/logoLight.png
 
-  
-  
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/logoDark.png
+    image_dark: assets/logos/logoLight.png
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+  web: false
