@@ -60,5 +60,10 @@ class MyTexts {
 
   // as
   static const and = "and";
-  static const myContinue = "Continue" ;
+  static const myContinue = "Continue";
+  static const submit = "Submit";
+  static const done = "Done";
+
+  static const homeAppbarTitle = "Good day for shopping";
+  static const homeAppbarSubTitle = "Bambang Kaleran";
 }

@@ -20,4 +20,15 @@ class MyImages {
   // Verify Images
   static const String verifyImage1 = "assets/images/verify_images/verify.gif";
   static const String verifyImage2 = "assets/images/verify_images/finish.gif";
+
+  // Category Icons
+  static const String sportIcon = "assets/logos/facebook.png";
+  static const String clothIcon = "assets/logos/facebook.png";
+  static const String shoeIcon = "assets/logos/facebook.png";
+  static const String cosmeticsIcon = "assets/logos/facebook.png";
+  static const String animalIcon = "assets/logos/facebook.png";
+  static const String toyIcon = "assets/logos/facebook.png";
+  static const String furnitureIcon = "assets/logos/facebook.png";
+  static const String jewelryIcon = "assets/logos/facebook.png";
+  static const String electronicIcon = "assets/logos/facebook.png";
 }
