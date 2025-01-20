@@ -20,6 +20,7 @@ dependencies:
   url_launcher: ^6.1.12
   flutter_native_splash: ^2.3.2
   smooth_page_indicator: ^1.2.0+3
+  carousel_slider: ^5.0.0
 
   # Icons
   iconsax: ^0.0.8
@@ -49,6 +50,7 @@ flutter:
     - assets/icons/brands/
     - assets/images/on_boarding_images/
     - assets/images/verify_images/
+    - assets/images/banners/
     - assets/icons/categories/
 
 # Local Fonts

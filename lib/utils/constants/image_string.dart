@@ -22,13 +22,18 @@ class MyImages {
   static const String verifyImage2 = "assets/images/verify_images/finish.gif";
 
   // Category Icons
-  static const String sportIcon = "assets/logos/facebook.png";
-  static const String clothIcon = "assets/logos/facebook.png";
-  static const String shoeIcon = "assets/logos/facebook.png";
-  static const String cosmeticsIcon = "assets/logos/facebook.png";
-  static const String animalIcon = "assets/logos/facebook.png";
-  static const String toyIcon = "assets/logos/facebook.png";
-  static const String furnitureIcon = "assets/logos/facebook.png";
-  static const String jewelryIcon = "assets/logos/facebook.png";
-  static const String electronicIcon = "assets/logos/facebook.png";
+  static const String sportIcon = "assets/icons/categories/sport.png";
+  static const String clothIcon = "assets/icons/categories/cloth.png";
+  static const String shoeIcon = "assets/icons/categories/shoe.png";
+  static const String cosmeticsIcon = "assets/icons/categories/cosmetic.png";
+  static const String animalIcon = "assets/icons/categories/animal.png";
+  static const String toyIcon = "assets/icons/categories/toy.png";
+  static const String furnitureIcon = "assets/icons/categories/furniture.png";
+  static const String jewelryIcon = "assets/icons/categories/jewelry.png";
+  static const String electronicIcon = "assets/icons/categories/electronic.png";
+
+  // Banners
+  static const String productBanner1 = "assets/images/banners/banner1.jpg";
+  static const String productBanner2 = "assets/images/banners/banner2.jpg";
+  static const String productBanner3 = "assets/images/banners/banner3.jpg";
 }
