@@ -43,9 +43,9 @@ class MySizes {
   static const double dividerHeight = 1.0;
 
   // Product item dimension
-  static const double prooductImageSize = 120.0;
-  static const double prooductImageRadius = 16.0;
-  static const double prooductImageHeight = 160.0;
+  static const double productImageSize = 120.0;
+  static const double productImageRadius = 16.0;
+  static const double productImageHeight = 160.0;
 
   // input Field
   static const double inputFieldRadius = 12.0;
