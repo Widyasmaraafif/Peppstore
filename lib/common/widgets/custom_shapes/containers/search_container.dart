@@ -6,15 +6,15 @@ import 'package:pepstore/utils/device/device_utility.dart';
 import 'package:pepstore/utils/helpers/helper_functions.dart';
 
 class MySearchContainer extends StatelessWidget {
-  const MySearchContainer({
-    super.key,
-    required this.text,
-    this.icon = Iconsax.search_normal,
-    this.showBackground = true,
-    this.showBorder = true,
-    this.onTap,
-    this.padding = const EdgeInsets.symmetric(horizontal: MySizes.defaultSpace)
-  });
+  const MySearchContainer(
+      {super.key,
+      required this.text,
+      this.icon = Iconsax.search_normal,
+      this.showBackground = true,
+      this.showBorder = true,
+      this.onTap,
+      this.padding =
+          const EdgeInsets.symmetric(horizontal: MySizes.defaultSpace)});
 
   final String text;
   final IconData? icon;
@@ -41,7 +41,7 @@ class MySearchContainer extends StatelessWidget {
                   : Colors.transparent,
               borderRadius: BorderRadius.circular(MySizes.borderRadiusLg),
               border: showBorder
-                  ? Border.all(color: dark ? MyColors.dark : MyColors.light)
+                  ? Border.all(color: dark ? MyColors.white : MyColors.dark)
                   : null),
           child: Row(
             children: [
