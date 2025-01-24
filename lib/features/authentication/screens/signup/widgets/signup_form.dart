@@ -5,7 +5,6 @@ import 'package:pepstore/features/authentication/screens/signup/verify_email.dar
 import 'package:pepstore/features/authentication/screens/signup/widgets/terms_conditons_checkbox.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/constants/text_string.dart';
-import 'package:pepstore/utils/helpers/helper_functions.dart';
 
 class MySignUpForm extends StatelessWidget {
   const MySignUpForm({
@@ -14,7 +13,6 @@ class MySignUpForm extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final dark = MyHelperFunctions.isDarkMode(context);
     return Form(
       child: Column(
         children: [
