@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pepstore/app.dart';
 import 'package:pepstore/common/style/spacing_styles.dart';
 import 'package:pepstore/common/widgets/login_signup/form_divider.dart';
 import 'package:pepstore/common/widgets/login_signup/social_buttons.dart';

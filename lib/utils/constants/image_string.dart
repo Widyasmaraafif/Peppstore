@@ -36,4 +36,8 @@ class MyImages {
   static const String productBanner1 = "assets/images/banners/banner1.jpg";
   static const String productBanner2 = "assets/images/banners/banner2.jpg";
   static const String productBanner3 = "assets/images/banners/banner3.jpg";
+
+  // Product
+  static const String product1 = "assets/images/product/product1.jpg";
+  static const String product2 = "assets/images/product/product2.jpg";
 }

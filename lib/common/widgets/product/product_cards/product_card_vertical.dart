@@ -38,7 +38,7 @@ class MyProductCardVertical extends StatelessWidget {
               child: Stack(
                 children: [
                   // Tumbnail Image
-                  MyRoundedImage(
+                  const MyRoundedImage(
                     imageUrl: MyImages.productBanner1,
                     applyImageRadius: true,
                     borderRadius: MySizes.sm,
@@ -64,7 +64,7 @@ class MyProductCardVertical extends StatelessWidget {
                   ),
 
                   // Favorite IconButton
-                  Positioned(
+                  const Positioned(
                       top: 0,
                       right: 0,
                       child: MyCircularIcon(
@@ -77,26 +77,26 @@ class MyProductCardVertical extends StatelessWidget {
             const SizedBox(height: MySizes.spaceBtwItems / 2),
 
             // Details
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: MySizes.sm),
+            const Padding(
+              padding: EdgeInsets.symmetric(horizontal: MySizes.sm),
               child: Column(
                 children: [
-                  const MyProductTitleText(
+                  MyProductTitleText(
                     title: 'Ventela High',
                     smallSize: true,
                   ),
-                  const SizedBox(height: MySizes.spaceBtwItems / 2),
+                  SizedBox(height: MySizes.spaceBtwItems / 2),
                   MyBrandTitleTextWithVerifiedIcon(title: 'Ventela',),
                 ],
               ),
             ),
-            Spacer(),
+            const Spacer(),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 // Price
-                Padding(
-                  padding: const EdgeInsets.only(left: MySizes.sm),
+                const Padding(
+                  padding: EdgeInsets.only(left: MySizes.sm),
                   child: MyProductPriceText(price: '300.000'),
                 ),
 
@@ -108,11 +108,11 @@ class MyProductCardVertical extends StatelessWidget {
                           topLeft: Radius.circular(MySizes.cardRadiusMd),
                           bottomRight:
                               Radius.circular(MySizes.productImageRadius))),
-                  child: SizedBox(
+                  child: const SizedBox(
                     width: MySizes.iconLg * 1.2,
                     height: MySizes.iconLg * 1.2,
                     child: Center(
-                      child: const Icon(
+                      child: Icon(
                         Iconsax.add,
                         color: MyColors.white,
                       ),

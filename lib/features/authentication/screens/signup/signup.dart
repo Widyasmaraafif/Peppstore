@@ -2,11 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
 import 'package:pepstore/common/widgets/login_signup/form_divider.dart';
 import 'package:pepstore/common/widgets/login_signup/social_buttons.dart';
 import 'package:pepstore/features/authentication/screens/signup/widgets/signup_form.dart';
-import 'package:pepstore/utils/constants/colors.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/constants/text_string.dart';
 import 'package:pepstore/utils/helpers/helper_functions.dart';

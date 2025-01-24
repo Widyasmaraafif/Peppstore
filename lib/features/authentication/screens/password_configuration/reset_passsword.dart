@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pepstore/features/authentication/screens/login/login.dart';
 import 'package:pepstore/utils/constants/image_string.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/constants/text_string.dart';
@@ -16,12 +15,12 @@ class ResetPassswordScreen extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: false,
         actions: [
-          IconButton(onPressed: () => Get.back(), icon: Icon(CupertinoIcons.clear))
+          IconButton(onPressed: () => Get.back(), icon: const Icon(CupertinoIcons.clear))
         ],
       ),
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.all(MySizes.defaultSpace),
+          padding: const EdgeInsets.all(MySizes.defaultSpace),
           child: Column(
             children: [
               // Images with 60% width

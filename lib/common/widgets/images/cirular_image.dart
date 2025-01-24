@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:pepstore/utils/constants/colors.dart';
-import 'package:pepstore/utils/constants/image_string.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/helpers/helper_functions.dart';
 

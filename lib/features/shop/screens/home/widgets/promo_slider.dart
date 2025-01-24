@@ -5,7 +5,6 @@ import 'package:pepstore/common/widgets/custom_shapes/containers/circular_contai
 import 'package:pepstore/common/widgets/images/rounded_image.dart';
 import 'package:pepstore/features/shop/controllers/home_controller.dart';
 import 'package:pepstore/utils/constants/colors.dart';
-import 'package:pepstore/utils/constants/image_string.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 
 class MyPromoSlider extends StatelessWidget {

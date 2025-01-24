@@ -6,7 +6,6 @@ import 'package:pepstore/features/authentication/screens/login/login.dart';
 import 'package:pepstore/features/authentication/screens/password_configuration/reset_passsword.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/constants/text_string.dart';
-import '';
 
 class ForgetPasswordScreen extends StatelessWidget {
   const ForgetPasswordScreen({super.key});
@@ -29,19 +28,19 @@ class ForgetPasswordScreen extends StatelessWidget {
               MyTexts.forgetPasswordTitle,
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            SizedBox(
+            const SizedBox(
               height: MySizes.spaceBtwItems,
             ),
             Text(
               MyTexts.forgetPasswordSubTitle,
               style: Theme.of(context).textTheme.labelMedium,
             ),
-            SizedBox(
+            const SizedBox(
               height: MySizes.spaceBtwSections * 2,
             ),
             // Text Field
             TextFormField(
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 prefixIcon: Icon(Iconsax.direct_right),
                 labelText: MyTexts.email,
               ),
@@ -52,7 +51,7 @@ class ForgetPasswordScreen extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () => Get.off(() => const ResetPassswordScreen()),
-                child: Text(MyTexts.submit),
+                child: const Text(MyTexts.submit),
               ),
             ),
           ],
