@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pepstore/common/widgets/custom_shapes/containers/rounded_container.dart';
-import 'package:pepstore/common/widgets/product/brand_cards/brand_card.dart';
+import 'package:pepstore/common/widgets/brands/brand_card.dart';
 import 'package:pepstore/utils/constants/colors.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
 import 'package:pepstore/utils/helpers/helper_functions.dart';

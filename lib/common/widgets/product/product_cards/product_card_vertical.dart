@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:pepstore/common/style/shadows.dart';
 import 'package:pepstore/common/widgets/Icons/circular_icon.dart';
@@ -7,6 +8,7 @@ import 'package:pepstore/common/widgets/images/rounded_image.dart';
 import 'package:pepstore/common/widgets/texts/brand_title_text_with_verified_icon.dart';
 import 'package:pepstore/common/widgets/texts/product_price_text.dart';
 import 'package:pepstore/common/widgets/texts/product_title_text.dart';
+import 'package:pepstore/features/shop/screens/product_details/product_detail.dart';
 import 'package:pepstore/utils/constants/colors.dart';
 import 'package:pepstore/utils/constants/image_string.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
@@ -19,7 +21,7 @@ class MyProductCardVertical extends StatelessWidget {
   Widget build(BuildContext context) {
     final dark = MyHelperFunctions.isDarkMode(context);
     return GestureDetector(
-      onTap: () {},
+      onTap: () => Get.to(() => const ProductDetail()),
       child: Container(
         width: 180,
         padding: const EdgeInsets.all(1),
@@ -41,8 +43,6 @@ class MyProductCardVertical extends StatelessWidget {
                   const MyRoundedImage(
                     imageUrl: MyImages.productBanner1,
                     applyImageRadius: true,
-                    borderRadius: MySizes.sm,
-                    fit: BoxFit.cover,
                   ),
 
                   // Sale Tag

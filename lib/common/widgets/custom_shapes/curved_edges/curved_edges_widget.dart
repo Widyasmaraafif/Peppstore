@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:pepstore/common/widgets/custom_shapes/curved_edges/curved_edges.dart';
 
-class MyCurvedWidget extends StatelessWidget {
-  const MyCurvedWidget({
+class MyCurvedEdgesWidget extends StatelessWidget {
+  const MyCurvedEdgesWidget({
     super.key,
     this.child,
   });

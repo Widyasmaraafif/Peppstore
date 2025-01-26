@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pepstore/common/widgets/layouts/grid_layouts.dart';
-import 'package:pepstore/common/widgets/product/brand_cards/brand_show_case.dart';
+import 'package:pepstore/common/widgets/brands/brand_show_case.dart';
 import 'package:pepstore/common/widgets/product/product_cards/product_card_vertical.dart';
 import 'package:pepstore/common/widgets/texts/section_heading.dart';
 import 'package:pepstore/utils/constants/image_string.dart';
