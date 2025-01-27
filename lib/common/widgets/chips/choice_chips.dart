@@ -17,25 +17,33 @@ class MyChoiceChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChoiceChip(
-      label: MyHelperFunctions.getColor(text) != null
-          ? const SizedBox()
-          : const Text(''),
-      selected: selected,
-      onSelected: onSelected,
-      labelStyle: TextStyle(color: selected ? MyColors.white : null),
-      avatar: MyHelperFunctions.getColor(text) != null
-          ? MyCircularContainer(
-              width: 50,
-              height: 50,
-              backgroundColor: MyHelperFunctions.getColor(text) !,
-            )
-          : null,
-      labelPadding: MyHelperFunctions.getColor(text) != null ? EdgeInsets.all(0) : null,
-      padding: MyHelperFunctions.getColor(text) != null ? EdgeInsets.all(0): null,
-      shape: MyHelperFunctions.getColor(text) != null ? CircleBorder() : null,
-      selectedColor: Colors.green,
-      backgroundColor: MyHelperFunctions.getColor(text) != null ? MyHelperFunctions.getColor(text) : null,
+    final isColor = MyHelperFunctions.getColor(text) != null;
+    return Theme(
+      data: Theme.of(context).copyWith(canvasColor: Colors.transparent),
+      child: ChoiceChip(
+        label: isColor
+            ? const SizedBox()
+            : Text(text),
+        selected: selected,
+        onSelected: onSelected,
+        labelStyle: TextStyle(color: selected ? MyColors.white : null),
+        avatar: isColor
+            ? MyCircularContainer(
+                width: 50,
+                height: 50,
+                backgroundColor: MyHelperFunctions.getColor(text)!,
+              )
+            : null,
+        labelPadding:
+            isColor ? const EdgeInsets.all(0) : null,
+        padding:
+            isColor ? const EdgeInsets.all(0) : null,
+        shape: isColor ? const CircleBorder() : null,
+        selectedColor: Colors.green,
+        backgroundColor: isColor
+            ? MyHelperFunctions.getColor(text)
+            : null,
+      ),
     );
   }
 }

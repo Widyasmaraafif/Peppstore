@@ -82,18 +82,70 @@ class MyProductAttributes extends StatelessWidget {
             ],
           ),
         ),
+        const SizedBox(height: MySizes.spaceBtwItems),
 
         // Attributes
         Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const MySectionHeading(title: 'Colors'),
+            const MySectionHeading(
+              title: 'Colors',
+              showActionButton: false,
+            ),
             const SizedBox(height: MySizes.spaceBtwItems / 2),
-            MyChoiceChip(text: 'Green', selected: true,),
+            Wrap(
+              spacing: 8,
+              children: [
+                MyChoiceChip(
+                  text: 'Green',
+                  selected: true,
+                  onSelected: (value) {},
+                ),
+                MyChoiceChip(
+                  text: 'Blue',
+                  selected: false,
+                  onSelected: (value) {},
+                ),
+                MyChoiceChip(
+                  text: 'Red',
+                  selected: false,
+                  onSelected: (value) {},
+                ),
+              ],
+            ),
+          ],
+        ),
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const MySectionHeading(
+              title: 'Size',
+              showActionButton: false,
+            ),
+            const SizedBox(height: MySizes.spaceBtwItems / 2),
+            Wrap(
+              spacing: 8,
+              children: [
+                MyChoiceChip(
+                  text: 'EU 34',
+                  selected: true,
+                  onSelected: (value) {},
+                ),
+                MyChoiceChip(
+                  text: 'EU 36',
+                  selected: false,
+                  onSelected: (value) {},
+                ),
+                MyChoiceChip(
+                  text: 'EU 38',
+                  selected: false,
+                  onSelected: (value) {},
+                ),
+              ],
+            ),
           ],
         )
       ],
     );
   }
 }
-
-
