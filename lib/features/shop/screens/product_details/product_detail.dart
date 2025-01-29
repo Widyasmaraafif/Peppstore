@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:pepstore/common/widgets/Icons/circular_icon.dart';
 import 'package:pepstore/common/widgets/appbar/appbar.dart';
@@ -10,6 +11,7 @@ import 'package:pepstore/features/shop/screens/product_details/widgets/product_a
 import 'package:pepstore/features/shop/screens/product_details/widgets/product_detail_image_slider.dart';
 import 'package:pepstore/features/shop/screens/product_details/widgets/product_meta_data.dart';
 import 'package:pepstore/features/shop/screens/product_details/widgets/rating_share_widget.dart';
+import 'package:pepstore/features/shop/screens/product_reviews/product_reviews.dart';
 import 'package:pepstore/utils/constants/colors.dart';
 import 'package:pepstore/utils/constants/image_string.dart';
 import 'package:pepstore/utils/constants/sizes.dart';
@@ -92,7 +94,7 @@ class ProductDetail extends StatelessWidget {
                         title: 'Reviews (199)',
                         showActionButton: false,
                       ),
-                      IconButton(onPressed: () {}, icon: const Icon(Iconsax.arrow_right_3))
+                      IconButton(onPressed: () => Get.to(() => ProductReviewsScreen()), icon: const Icon(Iconsax.arrow_right_3))
                     ],
                   ),
                   const SizedBox(height: MySizes.spaceBtwSections),
