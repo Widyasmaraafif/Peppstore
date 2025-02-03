@@ -54,6 +54,8 @@ flutter:
     - assets/images/verify_images/
     - assets/images/banners/
     - assets/images/product/
+    - assets/images/payment_methods/
+    - assets/images/profile/
     - assets/icons/categories/
 
 # Local Fonts

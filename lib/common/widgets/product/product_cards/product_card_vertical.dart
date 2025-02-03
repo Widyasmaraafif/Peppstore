@@ -41,7 +41,7 @@ class MyProductCardVertical extends StatelessWidget {
                 children: [
                   // Tumbnail Image
                   const MyRoundedImage(
-                    imageUrl: MyImages.productBanner1,
+                    imageUrl: MyImages.product1,
                     applyImageRadius: true,
                   ),
 
@@ -65,12 +65,13 @@ class MyProductCardVertical extends StatelessWidget {
 
                   // Favorite IconButton
                   const Positioned(
-                      top: 0,
-                      right: 0,
-                      child: MyCircularIcon(
-                        icon: Iconsax.heart5,
-                        color: Colors.red,
-                      ))
+                    top: 0,
+                    right: 0,
+                    child: MyCircularIcon(
+                      icon: Iconsax.heart5,
+                      color: Colors.red,
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -79,15 +80,21 @@ class MyProductCardVertical extends StatelessWidget {
             // Details
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: MySizes.sm),
-              child: Column(
-                children: [
-                  MyProductTitleText(
-                    title: 'Ventela High',
-                    smallSize: true,
-                  ),
-                  SizedBox(height: MySizes.spaceBtwItems / 2),
-                  MyBrandTitleTextWithVerifiedIcon(title: 'Ventela',),
-                ],
+              child: SizedBox(
+                width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    MyProductTitleText(
+                      title: 'Ventela High fawfafdasds adawdasdw',
+                      smallSize: true,
+                    ),
+                    SizedBox(height: MySizes.spaceBtwItems / 2),
+                    MyBrandTitleTextWithVerifiedIcon(
+                      title: 'Ventela',
+                    ),
+                  ],
+                ),
               ),
             ),
             const Spacer(),
@@ -127,5 +134,3 @@ class MyProductCardVertical extends StatelessWidget {
     );
   }
 }
-
-

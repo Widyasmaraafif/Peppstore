@@ -6,7 +6,7 @@ class MyProductTitleText extends StatelessWidget {
     required this.title,
     this.smallSize = false,
     this.maxLines = 2,
-    this.textAlign,
+    this.textAlign = TextAlign.left,
   });
 
   final String title;

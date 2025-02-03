@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:pepstore/common/widgets/custom_shapes/containers/primary_header_container.dart';
 import 'package:pepstore/common/widgets/custom_shapes/containers/search_container.dart';
 import 'package:pepstore/common/widgets/layouts/grid_layouts.dart';
 import 'package:pepstore/common/widgets/product/product_cards/product_card_vertical.dart';
 import 'package:pepstore/common/widgets/texts/section_heading.dart';
+import 'package:pepstore/features/shop/screens/all_products/all_products.dart';
 import 'package:pepstore/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:pepstore/features/shop/screens/home/widgets/home_categories.dart';
 import 'package:pepstore/features/shop/screens/home/widgets/promo_slider.dart';
@@ -70,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                   // Heading
                   MySectionHeading(
                     title: 'Popular Products',
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => const AllProductsScreen()),
                   ),
                   const SizedBox(height: MySizes.spaceBtwItems),
                   // Popular product

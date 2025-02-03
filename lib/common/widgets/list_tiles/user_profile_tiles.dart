@@ -15,7 +15,7 @@ class MyUserProfileTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: const MyCircularImage(
-        image: MyImages.animalIcon,
+        image: MyImages.profilePicture,
         width: 50,
         height: 50,
         padding: 0,

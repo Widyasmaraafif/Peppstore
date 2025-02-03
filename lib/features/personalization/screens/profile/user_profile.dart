@@ -33,7 +33,7 @@ class ProfileScreen extends StatelessWidget {
                 child: Column(
                   children: [
                     const MyCircularImage(
-                      image: MyImages.toyIcon,
+                      image: MyImages.profilePicture,
                       width: 80,
                       height: 80,
                     ),

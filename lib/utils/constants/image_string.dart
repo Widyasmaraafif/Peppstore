@@ -38,6 +38,21 @@ class MyImages {
   static const String productBanner3 = "assets/images/banners/banner3.jpg";
 
   // Product
-  static const String product1 = "assets/images/product/product1.jpg";
-  static const String product2 = "assets/images/product/product2.jpg";
+  static const String product1 = "assets/images/product/shoe1.png";
+  static const String product2 = "assets/images/product/shoe2.png";
+  static const String product3 = "assets/images/product/shoe3.png";
+  static const String product4 = "assets/images/product/shoe4.png";
+  static const String product5 = "assets/images/product/phone1.png";
+
+  // Profile
+  static const String profilePicture = "assets/images/profile/user.png";
+
+  // Payment Method
+  static const String applePay = "assets/images/payment_methods/applepay.png";
+  static const String googlePay = "assets/images/payment_methods/googlepay.png";
+  static const String payPal = "assets/images/payment_methods/paypal.png";
+  static const String creditCard = "assets/images/payment_methods/creditcard.png";
+  static const String masterCard = "assets/images/payment_methods/mastercard.png";
+  static const String visa = "assets/images/payment_methods/vis.png";
+
 }
